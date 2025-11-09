@@ -39,6 +39,7 @@ find_package(PCL REQUIRED QUIET)
 find_package(std_msgs REQUIRED)
 find_package(builtin_interfaces REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
+find_package(pcl_conversions REQUIRED)
 
 # check apr
 find_package(PkgConfig)
